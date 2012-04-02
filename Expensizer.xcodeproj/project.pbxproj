@@ -16,6 +16,8 @@
 		CA8C1FF015295EB5001B51F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C1FEE15295EB5001B51F1 /* MainStoryboard.storyboard */; };
 		CA8C1FF315295EB6001B51F1 /* ExpensizerMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FF215295EB5001B51F1 /* ExpensizerMasterViewController.m */; };
 		CA8C1FF615295EB6001B51F1 /* ExpensizerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FF515295EB6001B51F1 /* ExpensizerDetailViewController.m */; };
+		CA8C1FFD152961B4001B51F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C1FFC152961B4001B51F1 /* Default.png */; };
+		CA8C1FFF152961CE001B51F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8C1FFE152961CE001B51F1 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +25,19 @@
 		CA8C1FDC15295EB5001B51F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA8C1FDE15295EB5001B51F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA8C1FE015295EB5001B51F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CA8C1FE415295EB5001B51F1 /* Expensizer-Info.plist */ = {isa = PBXFileReference; path = "Expensizer-Info.plist"; sourceTree = "<group>"; };
+		CA8C1FE415295EB5001B51F1 /* Expensizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Expensizer-Info.plist"; sourceTree = "<group>"; };
 		CA8C1FE615295EB5001B51F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA8C1FE815295EB5001B51F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA8C1FEA15295EB5001B51F1 /* Expensizer-Prefix.pch */ = {isa = PBXFileReference; path = "Expensizer-Prefix.pch"; sourceTree = "<group>"; };
-		CA8C1FEB15295EB5001B51F1 /* ExpensizerAppDelegate.h */ = {isa = PBXFileReference; path = ExpensizerAppDelegate.h; sourceTree = "<group>"; };
+		CA8C1FEA15295EB5001B51F1 /* Expensizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Expensizer-Prefix.pch"; sourceTree = "<group>"; };
+		CA8C1FEB15295EB5001B51F1 /* ExpensizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpensizerAppDelegate.h; sourceTree = "<group>"; };
 		CA8C1FEC15295EB5001B51F1 /* ExpensizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerAppDelegate.m; sourceTree = "<group>"; };
 		CA8C1FEF15295EB5001B51F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CA8C1FF115295EB5001B51F1 /* ExpensizerMasterViewController.h */ = {isa = PBXFileReference; path = ExpensizerMasterViewController.h; sourceTree = "<group>"; };
+		CA8C1FF115295EB5001B51F1 /* ExpensizerMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpensizerMasterViewController.h; sourceTree = "<group>"; };
 		CA8C1FF215295EB5001B51F1 /* ExpensizerMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerMasterViewController.m; sourceTree = "<group>"; };
-		CA8C1FF415295EB6001B51F1 /* ExpensizerDetailViewController.h */ = {isa = PBXFileReference; path = ExpensizerDetailViewController.h; sourceTree = "<group>"; };
+		CA8C1FF415295EB6001B51F1 /* ExpensizerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpensizerDetailViewController.h; sourceTree = "<group>"; };
 		CA8C1FF515295EB6001B51F1 /* ExpensizerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerDetailViewController.m; sourceTree = "<group>"; };
+		CA8C1FFC152961B4001B51F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA8C1FFE152961CE001B51F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		CA8C1FCD15295EB5001B51F1 = {
 			isa = PBXGroup;
 			children = (
+				CA8C1FFE152961CE001B51F1 /* Default@2x.png */,
+				CA8C1FFC152961B4001B51F1 /* Default.png */,
 				CA8C1FE215295EB5001B51F1 /* Expensizer */,
 				CA8C1FDB15295EB5001B51F1 /* Frameworks */,
 				CA8C1FD915295EB5001B51F1 /* Products */,
@@ -155,6 +161,8 @@
 			files = (
 				CA8C1FE715295EB5001B51F1 /* InfoPlist.strings in Resources */,
 				CA8C1FF015295EB5001B51F1 /* MainStoryboard.storyboard in Resources */,
+				CA8C1FFD152961B4001B51F1 /* Default.png in Resources */,
+				CA8C1FFF152961CE001B51F1 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
