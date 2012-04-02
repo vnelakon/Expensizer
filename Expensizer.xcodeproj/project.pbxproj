@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8C1FDD15295EB5001B51F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C1FDC15295EB5001B51F1 /* UIKit.framework */; };
+		CA8C1FDF15295EB5001B51F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C1FDE15295EB5001B51F1 /* Foundation.framework */; };
+		CA8C1FE115295EB5001B51F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8C1FE015295EB5001B51F1 /* CoreGraphics.framework */; };
+		CA8C1FE715295EB5001B51F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA8C1FE515295EB5001B51F1 /* InfoPlist.strings */; };
+		CA8C1FE915295EB5001B51F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FE815295EB5001B51F1 /* main.m */; };
+		CA8C1FED15295EB5001B51F1 /* ExpensizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FEC15295EB5001B51F1 /* ExpensizerAppDelegate.m */; };
+		CA8C1FF015295EB5001B51F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8C1FEE15295EB5001B51F1 /* MainStoryboard.storyboard */; };
+		CA8C1FF315295EB6001B51F1 /* ExpensizerMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FF215295EB5001B51F1 /* ExpensizerMasterViewController.m */; };
+		CA8C1FF615295EB6001B51F1 /* ExpensizerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8C1FF515295EB6001B51F1 /* ExpensizerDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA8C1FD815295EB5001B51F1 /* Expensizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expensizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8C1FDC15295EB5001B51F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA8C1FDE15295EB5001B51F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA8C1FE015295EB5001B51F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA8C1FE415295EB5001B51F1 /* Expensizer-Info.plist */ = {isa = PBXFileReference; path = "Expensizer-Info.plist"; sourceTree = "<group>"; };
+		CA8C1FE615295EB5001B51F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA8C1FE815295EB5001B51F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA8C1FEA15295EB5001B51F1 /* Expensizer-Prefix.pch */ = {isa = PBXFileReference; path = "Expensizer-Prefix.pch"; sourceTree = "<group>"; };
+		CA8C1FEB15295EB5001B51F1 /* ExpensizerAppDelegate.h */ = {isa = PBXFileReference; path = ExpensizerAppDelegate.h; sourceTree = "<group>"; };
+		CA8C1FEC15295EB5001B51F1 /* ExpensizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerAppDelegate.m; sourceTree = "<group>"; };
+		CA8C1FEF15295EB5001B51F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CA8C1FF115295EB5001B51F1 /* ExpensizerMasterViewController.h */ = {isa = PBXFileReference; path = ExpensizerMasterViewController.h; sourceTree = "<group>"; };
+		CA8C1FF215295EB5001B51F1 /* ExpensizerMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerMasterViewController.m; sourceTree = "<group>"; };
+		CA8C1FF415295EB6001B51F1 /* ExpensizerDetailViewController.h */ = {isa = PBXFileReference; path = ExpensizerDetailViewController.h; sourceTree = "<group>"; };
+		CA8C1FF515295EB6001B51F1 /* ExpensizerDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpensizerDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8C1FD515295EB5001B51F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C1FDD15295EB5001B51F1 /* UIKit.framework in Frameworks */,
+				CA8C1FDF15295EB5001B51F1 /* Foundation.framework in Frameworks */,
+				CA8C1FE115295EB5001B51F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8C1FCD15295EB5001B51F1 = {
+			isa = PBXGroup;
+			children = (
+				CA8C1FE215295EB5001B51F1 /* Expensizer */,
+				CA8C1FDB15295EB5001B51F1 /* Frameworks */,
+				CA8C1FD915295EB5001B51F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8C1FD915295EB5001B51F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C1FD815295EB5001B51F1 /* Expensizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8C1FDB15295EB5001B51F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C1FDC15295EB5001B51F1 /* UIKit.framework */,
+				CA8C1FDE15295EB5001B51F1 /* Foundation.framework */,
+				CA8C1FE015295EB5001B51F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8C1FE215295EB5001B51F1 /* Expensizer */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C1FEB15295EB5001B51F1 /* ExpensizerAppDelegate.h */,
+				CA8C1FEC15295EB5001B51F1 /* ExpensizerAppDelegate.m */,
+				CA8C1FEE15295EB5001B51F1 /* MainStoryboard.storyboard */,
+				CA8C1FF115295EB5001B51F1 /* ExpensizerMasterViewController.h */,
+				CA8C1FF215295EB5001B51F1 /* ExpensizerMasterViewController.m */,
+				CA8C1FF415295EB6001B51F1 /* ExpensizerDetailViewController.h */,
+				CA8C1FF515295EB6001B51F1 /* ExpensizerDetailViewController.m */,
+				CA8C1FE315295EB5001B51F1 /* Supporting Files */,
+			);
+			path = Expensizer;
+			sourceTree = "<group>";
+		};
+		CA8C1FE315295EB5001B51F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8C1FE415295EB5001B51F1 /* Expensizer-Info.plist */,
+				CA8C1FE515295EB5001B51F1 /* InfoPlist.strings */,
+				CA8C1FE815295EB5001B51F1 /* main.m */,
+				CA8C1FEA15295EB5001B51F1 /* Expensizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8C1FD715295EB5001B51F1 /* Expensizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8C1FF915295EB6001B51F1 /* Build configuration list for PBXNativeTarget "Expensizer" */;
+			buildPhases = (
+				CA8C1FD415295EB5001B51F1 /* Sources */,
+				CA8C1FD515295EB5001B51F1 /* Frameworks */,
+				CA8C1FD615295EB5001B51F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Expensizer;
+			productName = Expensizer;
+			productReference = CA8C1FD815295EB5001B51F1 /* Expensizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8C1FCF15295EB5001B51F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CA8C1FD215295EB5001B51F1 /* Build configuration list for PBXProject "Expensizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA8C1FCD15295EB5001B51F1;
+			productRefGroup = CA8C1FD915295EB5001B51F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8C1FD715295EB5001B51F1 /* Expensizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8C1FD615295EB5001B51F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C1FE715295EB5001B51F1 /* InfoPlist.strings in Resources */,
+				CA8C1FF015295EB5001B51F1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8C1FD415295EB5001B51F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8C1FE915295EB5001B51F1 /* main.m in Sources */,
+				CA8C1FED15295EB5001B51F1 /* ExpensizerAppDelegate.m in Sources */,
+				CA8C1FF315295EB6001B51F1 /* ExpensizerMasterViewController.m in Sources */,
+				CA8C1FF615295EB6001B51F1 /* ExpensizerDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA8C1FE515295EB5001B51F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8C1FE615295EB5001B51F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA8C1FEE15295EB5001B51F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8C1FEF15295EB5001B51F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA8C1FF715295EB6001B51F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA8C1FF815295EB6001B51F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8C1FFA15295EB6001B51F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Expensizer/Expensizer-Prefix.pch";
+				INFOPLIST_FILE = "Expensizer/Expensizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA8C1FFB15295EB6001B51F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Expensizer/Expensizer-Prefix.pch";
+				INFOPLIST_FILE = "Expensizer/Expensizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8C1FD215295EB5001B51F1 /* Build configuration list for PBXProject "Expensizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C1FF715295EB6001B51F1 /* Debug */,
+				CA8C1FF815295EB6001B51F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8C1FF915295EB6001B51F1 /* Build configuration list for PBXNativeTarget "Expensizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8C1FFA15295EB6001B51F1 /* Debug */,
+				CA8C1FFB15295EB6001B51F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8C1FCF15295EB5001B51F1 /* Project object */;
+}
