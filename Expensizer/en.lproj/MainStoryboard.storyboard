@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1926" systemVersion="11C36" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="922"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
     </dependencies>
     <scenes>
         <scene sceneID="11">
@@ -13,11 +13,92 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="12" kind="relationship" relationship="rootViewController" id="19"/>
+                        <segue destination="yHd-Aj-gPf" kind="push" id="gdU-sI-Hfz"/>
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-1" y="64"/>
+            <point key="canvasLocation" x="-1288" y="70"/>
+        </scene>
+        <scene sceneID="11f-Xt-Mx3">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKz-O8-nlR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="yHd-Aj-gPf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fP2-xk-RT7">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hpm-Dg-5mH">
+                                <rect key="frame" x="33" y="320" width="254" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="LogIn">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Expensizer" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="5uY-CG-OBH">
+                                <rect key="frame" x="103" y="31" width="109" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ZTj-NX-4dX">
+                                <rect key="frame" x="155" y="135" width="132" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="User Id" lineBreakMode="tailTruncation" minimumFontSize="10" id="hnO-V9-2e6">
+                                <rect key="frame" x="38" y="135" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Password" lineBreakMode="tailTruncation" minimumFontSize="10" id="inf-lY-lmv">
+                                <rect key="frame" x="33" y="195" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ktq-Tx-xuk">
+                                <rect key="frame" x="155" y="190" width="132" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OwI-iS-wcx"/>
+                    <connections>
+                        <segue destination="CR4-oZ-FFm" kind="push" id="V3R-M4-k0K"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-842" y="70"/>
+        </scene>
+        <scene sceneID="zbj-Kd-Uz3">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUs-pm-mWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="CR4-oZ-FFm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6V4-QG-ffT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hSt-72-dmX"/>
+                    <connections>
+                        <segue destination="12" kind="push" id="sfV-yg-nrA"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-390" y="70"/>
         </scene>
         <scene sceneID="18">
             <objects>
@@ -63,7 +144,7 @@
                     <navigationItem key="navigationItem" title="Master" id="35"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="455" y="64"/>
+            <point key="canvasLocation" x="19" y="70"/>
         </scene>
         <scene sceneID="24">
             <objects>
@@ -90,9 +171,20 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="924" y="64"/>
+            <point key="canvasLocation" x="832" y="70"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ExpensizerDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExpensizerDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ExpensizerMasterViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExpensizerMasterViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
